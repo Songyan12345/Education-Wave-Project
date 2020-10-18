@@ -1,0 +1,43 @@
+/*Start of Footer code*/
+.footernav{
+    height: 100px;
+    width: 100%;
+    background-color: #853185;
+}
+.footernav ul{
+    float: right;
+    margin-right: 20px;
+}
+.footernav ul li{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+.footernav ul li a:hover{
+    color: rgb(211, 205, 205)
+}
+
+.footerContact{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+.copyright{
+    font-size: 11px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* End of Footer code */

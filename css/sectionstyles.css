@@ -1,0 +1,333 @@
+/*Start of Section code*/
+section{
+  height: 1000px;
+  width: 100%;
+  padding-top: 150px;
+  font-family:'Rubik', sans-serif;
+}
+
+section h1{
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+}
+
+section h2{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.indexContainer{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.indexContainer .indexContent{
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  color: #fff;
+  width: 100%;
+  padding: 30px;
+}
+.indexContainer .indexContent p{
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#index{
+  background-image: url("../images/indexbackground.jpg");
+  background-size: cover;
+  font-size: 30px;
+  color: rgb(91, 9, 129);
+}
+
+#getTutor{
+  height: 1600px;
+  background-color:rgb(231, 231, 208);
+  font-size: 30px;
+  color: rgb(91, 9, 129); 
+}
+#getTutor p{
+  text-align: center;
+}
+
+#getTutor h1{
+  margin-bottom: -10px;
+}
+
+#getTutor .tutorBox{
+  height: 1166px;
+}
+
+.slideBox{
+  height: 100%;
+  width: 600px;
+  padding-left: 100px;
+  float:left;
+}
+
+.slideBox p{
+  padding-top: 50px;
+}
+
+.slideshowSlides {
+  max-width: 100%;
+  position: center;
+  margin: 0 auto;
+  width: 330px;
+  padding-top: 20px;
+}
+
+.slideImage{
+  height: 365px;
+  width: 330px;
+  object-fit: cover;
+  object-position: center;
+  border: 10px;
+  border-radius: 10px;
+}
+.slideDots{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -30px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(91, 9, 129);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.dot:hover {
+  background-color: rgb(179, 86, 223)
+}
+.slideBox .tutorInfo{
+  text-align: center;
+  width: 370px;
+  height: 500px;
+  padding-left: 150px;
+}
+.slideBox .tutorInfo strong{
+  font-size: 25px;
+}
+.slideBox .tutorInfo p{
+  font-size: 23px;
+  margin-bottom: -30px;
+  float: left;
+}
+
+
+/* End of Slideshow code*/
+
+.filterTutors{
+  height: 100%;
+  width: 1000px;
+  float: right;
+  padding-top: 50px;
+  padding-right: 90px;
+  background-color: rgb(231, 231, 208);
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.filterTutors #filterButtons{
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  z-index: 2;
+  padding-bottom: 30px;
+}
+.columnImage{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.filterTitle{
+  font-size: 19px;
+  float: left;
+}
+#filterButtons .filterBtn{
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.filterBtn {
+  background-color:  rgb(91, 9, 129);
+  margin-left: 5px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.filterBtn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.filterBtn.active {
+  background-color: rgb(255, 156, 64);
+  color: white;
+}
+
+.content {
+  background-color: rgb(231, 231, 208);
+}
+
+.row {
+  /* padding-top: 50px; */
+  height: 1000px;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.content {
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 380px;
+}
+.content ul li{
+  list-style-type: none;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+.content strong{
+  font-size: 20px;
+}
+.content p{
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  float: left;
+  margin-top: -27px;
+}
+
+#price{
+  background-color:rgb(91, 9, 129);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+#price .priceWrapper{
+  margin-top: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#price .priceWrapper h1{
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 52px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#price .priceWrapper .pricePara{
+  width: 80%;
+  color: rgb(91, 9, 129);
+  margin: 0 auto 50px;
+  font-size: 20px;
+}
+
+.priceContainer{
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.priceContainer .priceBoxes{
+  width: 370px;
+  height: 600px;
+  background: rgb(231, 231, 208);
+  margin: 10px 18px 50px;
+  box-shadow: 0 0 2px rgb(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.priceBoxes .moneyPrice{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.priceContainer .priceBoxes p.moneyPrice {
+  font-size: 50px;
+}
+
+.priceBoxes h3{
+  padding-top: 30px;
+  color: rgb(91, 9, 129);
+}
+.priceBoxes .priceButton{
+  font-size: 20px;
+}
+.priceContainer .priceBoxes p.moneyPrice{
+  margin-top: 20px;
+  color: rgb(91, 9, 129);
+  font-size: 52px;
+}
+
+.priceContainer .priceBoxes p.moneyPrice span{
+  font-size: 20px;
+}
+.priceBoxes a{
+  margin-top: 1000px;
+}
+.priceContainer .priceBoxes a.priceButton{
+  display: inline-block;
+  font-family: 'Baloo Tammudu 2', cursive;
+  padding-top: 16px; 
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+  background:rgb(91, 9, 129);
+  color: rgb(231, 231, 208);
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+
+#about{
+  width: 100%;
+  background-color: rgb(231, 231, 208);
+  font-size: 30px;
+  color: rgb(91, 9, 129);
+}
+
+#about .aboutPara{
+  font-size: 25px;
+  }
+
+#about .aboutText{
+  margin-top: 30px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 70px;
+  margin-right: 60px;
+}
+
+#about ul li{
+  margin-top: 5px;
+  margin-left: 300px;
+  list-style: square;
+}
+#about h2{
+  margin-top: 30px;
+}
+
+
+/* End of Section code */
