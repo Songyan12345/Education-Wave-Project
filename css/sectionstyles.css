@@ -110,6 +110,10 @@ section h2 {
     margin-right: 10px;
 }
 
+.dot.active {
+    background-color: rgb(255, 156, 64);
+}
+
 .dot:hover {
     background-color: rgb(179, 86, 223)
 }
@@ -182,7 +186,7 @@ section h2 {
 }
 
 .filterBtn:hover {
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(179, 86, 223);
 }
 
 
