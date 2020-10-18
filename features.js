@@ -53,5 +53,50 @@ for (let i = 0; i < buttons.length; i++) {
     });
 }
 
+function showDetails(name) {
+    let msg = "";
+
+    switch (name) {
+        case "rami":
+            msg = "Hi I'm Rami";
+            break;
+        case "michael":
+            msg = "Hi I'm Michael";
+            break;
+        case "natalie":
+            msg = "Hi I'm Natalie";
+            break;
+        case "liam":
+            msg = "Hi I'm Liam";
+            break;
+        case "akash":
+            msg = "Hi I'm Akash";
+            break;
+        case "malcom":
+            msg = "Hi I'm Malcom";
+            break;
+        case "dean":
+            msg = "Hi I'm Dean";
+            break;
+        case "carmella":
+            msg = "Hi I'm Carmella";
+            break;
+        case "zhi":
+            msg = "Hi I'm Zhi";
+            break;
+    }
+
+    document.getElementById("msg").innerHTML = msg;
+    document.getElementById("notif").style.display = "block";
+    document.getElementsByClassName("close")[0].onclick = function() {
+        document.getElementById("notif").style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == document.getElementById("notif")) {
+            document.getElementById("notif").style.display = "none";
+        }
+    }
+}
+
 changeDisplay("index");
 filterSelection("all");

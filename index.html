@@ -18,6 +18,14 @@
 </head>
 
 <body>
+    <div id="notif" class="notif">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p id="msg"></p>
+        </div>
+
+    </div>
+
     <div class="wrapper">
         <nav class="navbar">
             <a href="javascript:void(0);" onClick="changeDisplay('index');"><img class="logo" src="images/newlogo-removebg-preview.PNG" alt="Online Tutor Home"></a>
@@ -63,8 +71,8 @@
                 <div class="tutorBox">
                     <div class="slideBox">
                         <p>These are the top 3 tutors of the month</p>
-                        <div class=s lideshowSlides>
-                            <img class="slideImage" src="images/tutor2.jpg" width=5 00px alt="Top tutors">
+                        <div class="slideshowSlides">
+                            <img class="slideImage" src="images/tutor2.jpg" width=500px alt="Top tutors">
                         </div>
 
                         <div class="slideDots">
@@ -81,7 +89,9 @@
                     </div>
 
                     <div class="filterTutors">
-                        <p class="filterTitle"><strong>Filters:</strong> Search by subject</p>
+                        <p class="filterTitle"><strong>Filters:</strong> Search by subject.</p>
+                        <br>
+                        <p class="filterTitle">Click on each tutor to view more information about them.</p>
                         <br>
                         <div id="filterButtons">
                             <button class="filterBtn active" onclick="filterSelection('all')"> Show all</button>
@@ -95,7 +105,7 @@
                         <div class="row">
                             <div class="column mathematics india">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor1.jpg" alt="indian mathematics online tutor">
+                                    <img onClick="showDetails('rami')" class="columnImage" src="images/tutor1.jpg" alt="indian mathematics online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Rami Patel</li>
                                         <li><strong>Subject: </strong>Mathematics</li>
@@ -106,7 +116,7 @@
                             </div>
                             <div class="column accounting belgium">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor2.jpg" alt="belgian accounting online tutor">
+                                    <img onClick="showDetails('michael')" class="columnImage" src="images/tutor2.jpg" alt="belgian accounting online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Michael Thorman</li>
                                         <li><strong>Subject: </strong>Accounting</li>
@@ -117,7 +127,7 @@
                             </div>
                             <div class="column english australia">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor3.jpg" alt="australian english online tutor">
+                                    <img onClick="showDetails('natalie')" class="columnImage" src="images/tutor3.jpg" alt="australian english online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Natalie Johnson</li>
                                         <li><strong>Subject: </strong>English</li>
@@ -129,7 +139,7 @@
 
                             <div class="column computerScience newZealand">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor4.jpg" alt="new zealand computer science online tutor">
+                                    <img onClick="showDetails('liam')" class="columnImage" src="images/tutor4.jpg" alt="new zealand computer science online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Liam Codsworth</li>
                                         <li><strong>Subject: </strong>Computer Science</li>
@@ -140,7 +150,7 @@
                             </div>
                             <div class="column biology india">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor5.jpg" alt="indian biology online tutor">
+                                    <img onClick="showDetails('akash')" class="columnImage" src="images/tutor5.jpg" alt="indian biology online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Akash Babu</li>
                                         <li><strong>Subject: </strong>Biology</li>
@@ -151,7 +161,7 @@
                             </div>
                             <div class="column physics australia">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor6.jpg" alt="australian physics online tutor">
+                                    <img onClick="showDetails('malcom')" class="columnImage" src="images/tutor6.jpg" alt="australian physics online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Malcom Aldridge</li>
                                         <li><strong>Subject: </strong>Physics</li>
@@ -162,7 +172,7 @@
                             </div>
                             <div class="column accounting newZealand">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor7.jpg" alt="new zealand accounting online tutor">
+                                    <img onClick="showDetails('dean')" class="columnImage" src="images/tutor7.jpg" alt="new zealand accounting online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Dean Hobson</li>
                                         <li><strong>Subject: </strong>Accounting</li>
@@ -173,7 +183,7 @@
                             </div>
                             <div class="column biology belgium">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor8.jpg" alt="belgian biology online tutor">
+                                    <img onClick="showDetails('carmella')" class="columnImage" src="images/tutor8.jpg" alt="belgian biology online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Carmella Changretta</li>
                                         <li><strong>Subject: </strong>Biology</li>
@@ -184,7 +194,7 @@
                             </div>
                             <div class="column physics china">
                                 <div class="content">
-                                    <img class="columnImage" src="images/tutor9.jpg" alt="chinese physics online tutor">
+                                    <img onClick="showDetails('zhi')" class="columnImage" src="images/tutor9.jpg" alt="chinese physics online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Zhi Ruo</li>
                                         <li><strong>Subject: </strong>Physics</li>
