@@ -1,304 +1,288 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Education Wave: Online Tutoring</title>
-        <link href = "css/webstyles.css" type="text/css" rel="stylesheet">
-        <link href = "css/footerstyles.css" type="text/css" rel="stylesheet">
-        <link href = "css/sectionstyles.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="A global online tutoring system that connects students and tutors from around the world for efficient learning.">
 
-    </head>
+<head>
+    <title>Education Wave: Online Tutoring</title>
+    <link href="css/webstyles.css" type="text/css" rel="stylesheet">
+    <link href="css/footerstyles.css" type="text/css" rel="stylesheet">
+    <link href="css/sectionstyles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="features.js" defer="true"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A global online tutoring system that connects students and tutors from around the world for efficient learning.">
 
-    <body>
-        <div class ="wrapper">
-            <nav class = "navbar">
-                <a href = "#index"><img class = "logo" src = "images/newlogo-removebg-preview.PNG" alt = "Online Tutor Home"></a>
-                <ul>
-                    <li><a href = "#index">HOME</a></li>
-                    <li><a href = "#getTutor">GET A TUTOR</a></li>
-                    <li><a href = "#price">TUTOR PRICES</a></li>
-                    <li><a href = "#about">ABOUT US</a></li>
-                </ul>
+</head>
 
-            </nav>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <a href="javascript:void(0);" onClick="changeDisplay('index');"><img class="logo" src="images/newlogo-removebg-preview.PNG" alt="Online Tutor Home"></a>
+            <ul>
+                <li onClick="changeDisplay('index')"><a>HOME</a></li>
+                <li onClick="changeDisplay('getTutor')"><a>GET A TUTOR</a></li>
+                <li onClick="changeDisplay('price')"><a>TUTOR PRICES</a></li>
+                <li onClick="changeDisplay('about')"><a>ABOUT US</a></li>
+            </ul>
 
-            <div class = "centering">
-                <section id = "index">
-                    <div class = "indexContainer">
-                        <div class = "indexContent">
-                            <h1>Welcome to Education Wave</h1>
-                            <h2>Efficient Online Tutoring System</h2>
-                            <p>At Education Wave aim to help those who are struggling
-                                with academic achievements and school work. We are an online tutoring company.
-                                We always strive to improve the students learning through high-quality one-on-one
-                                tuition. We operate as an online-only education provider. Our tutors
-                                and staff work from home to benefit others. We have a vast range of 
-                                subjects that are covered, such as English, Mathematics, Physics, Biology,
-                                Computer Science, Accounting, and so on.
-                            </p>
-                            <br>
-                            <p>
-                                Why choose us?<br><br>
-                                The tutor and the student will form a healthy relationship which will
-                                increase the morale and confidence the student has. Giving them the
-                                courage to ask questions and correct their mistakes. One-on-one tutoring
-                                will beneficial to the individual as all the attention is directed towards them.
-                                The teachers adapt and change their teaching based on how the student is getting
-                                on. The tutors have a professional, friendly, and encouraging manner towards any
-                                student as they want to see the individual strive and succeed.
-                            </p>
-                            <br>
-                            <p>
-                                How does it work?<br><br>
-                                As this is an age of internet and technology, the whole tutoring system is based online.
-                                Choose your tutor, contact them via email to discuss the payment and price. 
-                                They will give you a choice of communication, whether Skype, Zoom or another preferred 
-                                call application. Each lesson, the tutor will send a pdf, which contains the details of 
-                                the worksheet that needs to be completed either during that lesson or before the next lesson. 
-                                They will go through the sheet and provide help when needed. The student is 
-                                expected to have stationary ready before the day of the tutoring. Such as a pen, paper, and laptop/ computer.
-                            </p>
+        </nav>
+
+        <div class="centering">
+            <section id="index">
+                <div class="indexContainer">
+                    <div class="indexContent">
+                        <h1>Welcome to Education Wave</h1>
+                        <h2>Efficient Online Tutoring System</h2>
+                        <p>At Education Wave aim to help those who are struggling with academic achievements and school work. We are an online tutoring company. We always strive to improve the students learning through high-quality one-on-one tuition. We
+                            operate as an online-only education provider. Our tutors and staff work from home to benefit others. We have a vast range of subjects that are covered, such as English, Mathematics, Physics, Biology, Computer Science, Accounting,
+                            and so on.
+                        </p>
+                        <br>
+                        <p>
+                            Why choose us?<br><br> The tutor and the student will form a healthy relationship which will increase the morale and confidence the student has. Giving them the courage to ask questions and correct their mistakes. One-on-one
+                            tutoring will beneficial to the individual as all the attention is directed towards them. The teachers adapt and change their teaching based on how the student is getting on. The tutors have a professional, friendly, and encouraging
+                            manner towards any student as they want to see the individual strive and succeed.
+                        </p>
+                        <br>
+                        <p>
+                            How does it work?<br><br> As this is an age of internet and technology, the whole tutoring system is based online. Choose your tutor, contact them via email to discuss the payment and price. They will give you a choice of communication,
+                            whether Skype, Zoom or another preferred call application. Each lesson, the tutor will send a pdf, which contains the details of the worksheet that needs to be completed either during that lesson or before the next lesson.
+                            They will go through the sheet and provide help when needed. The student is expected to have stationary ready before the day of the tutoring. Such as a pen, paper, and laptop/ computer.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="getTutor">
+                <h1>Get a Tutor Now!</h1>
+                <h2>You can select an online tutor below</h2>
+                <!-- Slideshow -->
+                <div class="tutorBox">
+                    <div class="slideBox">
+                        <p>These are the top 3 tutors of the month</p>
+                        <div class=s lideshowSlides>
+                            <img class="slideImage" src="images/tutor2.jpg" width=5 00px alt="Top tutors">
+                        </div>
+
+                        <div class="slideDots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                        <div class="tutorInfo">
+                            <p><strong>Name: </strong>Michael Thorman</p>
+                            <p><strong>Subject: </strong>Accounting</p>
+                            <p><strong>Country: </strong>Belgium</p>
+                            <p><strong>Email: </strong>michaelthor1@gmail.com</p>
                         </div>
                     </div>
-                </section>
-    
-                <section id = "getTutor">
-                    <h1>Get a Tutor Now!</h1>
-                    <h2>You can select an online tutor below</h2>
-                    <!-- Slideshow -->
-                    <div class="tutorBox">
-                        <div class="slideBox">
-                            <p>These are the top 3 tutors of the month</p>
-                            <div class = slideshowSlides>
-                                <img class = "slideImage"src = "images/tutor2.jpg" width = 500px alt = "Top tutors">
-                            </div>
 
-                            <div class = "slideDots">
-                                <span class="dot" onclick="currentSlide(1)"></span>
-                                <span class="dot" onclick="currentSlide(2)"></span>
-                                <span class="dot" onclick="currentSlide(3)"></span>
-                            </div>
-                            <div class ="tutorInfo">
-                                <p><strong>Name: </strong>Michael Thorman</p>
-                                <p><strong>Subject: </strong>Accounting</p>
-                                <p><strong>Country: </strong>Belgium</p>
-                                <p><strong>Email: </strong>michaelthor1@gmail.com</p>
-                            </div>
+                    <div class="filterTutors">
+                        <p class="filterTitle"><strong>Filters:</strong> Search by subject</p>
+                        <br>
+                        <div id="filterButtons">
+                            <button class="filterBtn active" onclick="filterSelection('all')"> Show all</button>
+                            <button class="filterBtn" onclick="filterSelection('accounting')"> Accounting</button>
+                            <button class="filterBtn" onclick="filterSelection('biology')"> Biology</button>
+                            <button class="filterBtn" onclick="filterSelection('computerScience')"> Computer Science</button>
+                            <button class="filterBtn" onclick="filterSelection('english')"> English</button>
+                            <button class="filterBtn" onclick="filterSelection('mathematics')"> Mathematics</button>
+                            <button class="filterBtn" onclick="filterSelection('physics')"> Physics</button>
                         </div>
-
-                        <div class="filterTutors">
-                            <p class = "filterTitle"><strong>Filters:</strong> Search by subject</p>
-                            <br>
-                            <div id="filterButtons">
-                                <button class="filterBtn active" onclick="filterSelection('all')"> Show all</button>
-                                <button class="filterBtn" onclick="filterSelection('accounting')"> Accounting</button>
-                                <button class="filterBtn" onclick="filterSelection('biology')"> Biology</button>
-                                <button class="filterBtn" onclick="filterSelection('computerScience')"> Computer Science</button>
-                                <button class="filterBtn" onclick="filterSelection('english')"> English</button>
-                                <button class="filterBtn" onclick="filterSelection('physics')"> Physics</button>
-                            </div>
-                            <div class="row">
-                                <div class="column mathematics india">
-                                  <div class="content">
-                                    <img class ="columnImage" src="images/tutor1.jpg" alt="indian mathematics online tutor">
+                        <div class="row">
+                            <div class="column mathematics india">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor1.jpg" alt="indian mathematics online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Rami Patel</li>
                                         <li><strong>Subject: </strong>Mathematics</li>
                                         <li><strong>Country: </strong>India</li>
                                         <li><strong>Email: </strong>ramihelper@gmail.com</li>
                                     </ul>
-                                  </div>
                                 </div>
-                                <div class="column accounting belgium">
-                                  <div class="content">
-                                    <img class ="columnImage" src="images/tutor2.jpg" alt="belgian accounting online tutor">
+                            </div>
+                            <div class="column accounting belgium">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor2.jpg" alt="belgian accounting online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Michael Thorman</li>
                                         <li><strong>Subject: </strong>Accounting</li>
                                         <li><strong>Country: </strong>Belgium</li>
                                         <li><strong>Email: </strong>michaelthor1@gmail.com</li>
                                     </ul>
-                                  </div>
                                 </div>
-                                <div class="column english australia">
-                                  <div class="content">
-                                    <img class ="columnImage" src="images/tutor3.jpg" alt="australian english online tutor">
+                            </div>
+                            <div class="column english australia">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor3.jpg" alt="australian english online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Natalie Johnson</li>
                                         <li><strong>Subject: </strong>English</li>
                                         <li><strong>Country: </strong>Australia</li>
                                         <li><strong>Email: </strong>nataliejohn@gmail.com</li>
                                     </ul>
-                                  </div>
                                 </div>
-                              
-                                <div class="column computerScience newZealand">
-                                  <div class="content">
-                                    <img class ="columnImage" src="images/tutor4.jpg" alt="new zealand computer science online tutor">
+                            </div>
+
+                            <div class="column computerScience newZealand">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor4.jpg" alt="new zealand computer science online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Liam Codsworth</li>
                                         <li><strong>Subject: </strong>Computer Science</li>
                                         <li><strong>Country: </strong>New Zealand</li>
                                         <li><strong>Email: </strong>liamcodsworth12@gmail.com</li>
                                     </ul>
-                                  </div>
                                 </div>
-                                <div class="column biology india">
-                                  <div class="content">
-                                    <img class ="columnImage" src="images/tutor5.jpg" alt="indian biology online tutor">
+                            </div>
+                            <div class="column biology india">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor5.jpg" alt="indian biology online tutor">
                                     <ul>
                                         <li><strong>Name: </strong>Akash Babu</li>
                                         <li><strong>Subject: </strong>Biology</li>
                                         <li><strong>Country: </strong>India</li>
                                         <li><strong>Email: </strong>akashthegreat@gmail.com</li>
                                     </ul>
-                                  </div>
                                 </div>
-                                <div class="column physics australia">
-                                    <div class="content">
-                                      <img class ="columnImage" src="images/tutor6.jpg" alt="australian physics online tutor">
-                                      <ul>
-                                          <li><strong>Name: </strong>Malcom Aldridge</li>
-                                          <li><strong>Subject: </strong>Physics</li>
-                                          <li><strong>Country: </strong>Australia</li>
-                                          <li><strong>Email: </strong>braincentral@gmail.com</li>
-                                      </ul>
-                                    </div>
+                            </div>
+                            <div class="column physics australia">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor6.jpg" alt="australian physics online tutor">
+                                    <ul>
+                                        <li><strong>Name: </strong>Malcom Aldridge</li>
+                                        <li><strong>Subject: </strong>Physics</li>
+                                        <li><strong>Country: </strong>Australia</li>
+                                        <li><strong>Email: </strong>braincentral@gmail.com</li>
+                                    </ul>
                                 </div>
-                                <div class="column accounting newZealand">
-                                    <div class="content">
-                                      <img class ="columnImage" src="images/tutor7.jpg" alt="new zealand accounting online tutor">
-                                      <ul>
-                                          <li><strong>Name: </strong>Dean Hobson</li>
-                                          <li><strong>Subject: </strong>Accounting</li>
-                                          <li><strong>Country: </strong>New Zealand</li>
-                                          <li><strong>Email: </strong>deanhobby@gmail.com</li>
-                                      </ul>
-                                    </div>
+                            </div>
+                            <div class="column accounting newZealand">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor7.jpg" alt="new zealand accounting online tutor">
+                                    <ul>
+                                        <li><strong>Name: </strong>Dean Hobson</li>
+                                        <li><strong>Subject: </strong>Accounting</li>
+                                        <li><strong>Country: </strong>New Zealand</li>
+                                        <li><strong>Email: </strong>deanhobby@gmail.com</li>
+                                    </ul>
                                 </div>
-                                <div class="column biology belgium">
-                                    <div class="content">
-                                      <img class ="columnImage" src="images/tutor8.jpg" alt="belgian biology online tutor">
-                                      <ul>
-                                          <li><strong>Name: </strong>Carmella Changretta</li>
-                                          <li><strong>Subject: </strong>Biology</li>
-                                          <li><strong>Country: </strong>Belgium</li>
-                                          <li><strong>Email: </strong>carmellagretta@gmail.com</li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                <div class="column physics china">
-                                    <div class="content">
-                                      <img class ="columnImage" src="images/tutor9.jpg" alt="chinese physics online tutor">
-                                      <ul>
-                                          <li><strong>Name: </strong>Zhi Ruo</li>
-                                          <li><strong>Subject: </strong>Physics</li>
-                                          <li><strong>Country: </strong>China</li>
-                                          <li><strong>Email: </strong>zhiruo@gmail.com</li>
-                                      </ul>
-                                    </div>
+                            </div>
+                            <div class="column biology belgium">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor8.jpg" alt="belgian biology online tutor">
+                                    <ul>
+                                        <li><strong>Name: </strong>Carmella Changretta</li>
+                                        <li><strong>Subject: </strong>Biology</li>
+                                        <li><strong>Country: </strong>Belgium</li>
+                                        <li><strong>Email: </strong>carmellagretta@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="column physics china">
+                                <div class="content">
+                                    <img class="columnImage" src="images/tutor9.jpg" alt="chinese physics online tutor">
+                                    <ul>
+                                        <li><strong>Name: </strong>Zhi Ruo</li>
+                                        <li><strong>Subject: </strong>Physics</li>
+                                        <li><strong>Country: </strong>China</li>
+                                        <li><strong>Email: </strong>zhiruo@gmail.com</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                </section>
-    
-                <section id = "price">
-                    <div class = "priceWrapper">
-                        <h1>Tutor Prices</h1>
-                        <h2>Below are the payment options that you will discuss with the tutor</h2>
-                        <div class = "priceContainer">
-                            <div class = "priceBoxes">
-                                <h3>Weekly</h3>
-                                <p class = "moneyPrice">$102<br><span>per week approx.</span></p>
-                                <p class = "pricePara">
-                                    - Tutor will provide worksheets and assessments that are to be completed during the lesson or before next lesson.<br><br>
-                                    - If the student needs more help, they can negotiate with the tutor about hours which will result in a change of
-                                    the pricing per week.
-                                </p>
-                                <a href = "#getTutor" class = "priceButton" alt = "tutoring">Get a Tutor</a>
-                            </div>
-                            <div class = "priceBoxes">
-                                <h3>Monthly</h3>
-                                <p class = "moneyPrice">$390<br><span>per month approx.</span></p>
-                                <p class = "pricePara">
-                                    - Granted the previous incentives<br><br>
-                                    - With this monthly deal, the student will be able to earn awards for their outstanding
-                                    behaviour and motivation to learn.<br><br><br>
-                                </p>
-                                <a href = "#getTutor" class = "priceButton" alt = "cheap tutoring price">Get a Tutor</a>
-                            </div>
-                            <div class = "priceBoxes">
-                                <h3>Annually</h3>
-                                <p class = "moneyPrice">$4,730<br><span>per year approx.</span></p>
-                                <p class = "pricePara">
-                                    - The student will have access to the first 2 deals incentives and access to previous resources, and past year worksheets.<br><br>
-                                    - The student will be entered into win a prize every 2 months. Prizes such as gift cards, tickets, coupons and many more!
-                                </p>
-                                <a href = "#getTutor" class = "priceButton" alt = "tutor rewards">Get a Tutor</a>
-                            </div>
+
+                </div>
+            </section>
+
+            <section id="price">
+                <div class="priceWrapper">
+                    <h1>Tutor Prices</h1>
+                    <h2>Below are the payment options that you will discuss with the tutor</h2>
+                    <div class="priceContainer">
+                        <div class="priceBoxes">
+                            <h3>Weekly</h3>
+                            <p class="moneyPrice">$102<br><span>per week approx.</span></p>
+                            <p class="pricePara">
+                                - Tutor will provide worksheets and assessments that are to be completed during the lesson or before next lesson.<br><br> - If the student needs more help, they can negotiate with the tutor about hours which will result
+                                in a change of the pricing per week.
+                            </p>
+                            <a href="javascript:void(0);" onClick="changeDisplay('getTutor');" class="priceButton" alt="tutoring">Get a Tutor</a>
+                        </div>
+                        <div class="priceBoxes">
+                            <h3>Monthly</h3>
+                            <p class="moneyPrice">$390<br><span>per month approx.</span></p>
+                            <p class="pricePara">
+                                - Granted the previous incentives<br><br> - With this monthly deal, the student will be able to earn awards for their outstanding behaviour and motivation to learn.<br><br><br>
+                            </p>
+                            <a href="javascript:void(0);" onClick="changeDisplay('getTutor');" class="priceButton" alt="cheap tutoring price">Get a Tutor</a>
+                        </div>
+                        <div class="priceBoxes">
+                            <h3>Annually</h3>
+                            <p class="moneyPrice">$4,730<br><span>per year approx.</span></p>
+                            <p class="pricePara">
+                                - The student will have access to the first 2 deals incentives and access to previous resources, and past year worksheets.<br><br> - The student will be entered into win a prize every 2 months. Prizes such as gift cards,
+                                tickets, coupons and many more!
+                            </p>
+                            <a href="javascript:void(0);" onClick="changeDisplay('getTutor');" class="priceButton" alt="tutor rewards">Get a Tutor</a>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <section id = "about">
-                    <h1>About Us</h1>
-                    <div class = "aboutPara">
-                        <p class = "aboutText">Education Wave was established in 2020. It is a New Zealand operation with tutors from around the world. We are an innovative serivce that helps students
-                            that struggling with school work.<br>
-                            At Education Wave, our tutors are graduates from all types of Bachelor Degrees such as Bachelor of Commerce, Bachelor of Science, and more.
-                            We want to provide tutoring from the comfort of your home, where both parties can communicate online which makes it very convenient.
-                        </p>
-                        <h2>
-                            Our Goal
-                        </h2>
-                        <p class = "aboutText">
-                            We want to train ambitious and aspiring students. We want to give students the best shot for their future. Giving them an opportunity to improve while they still young and have a chance.
-                            Setting the young kids on a path which will benefit everyone in the future. Our aim is also to create a healthy, friendly and fun environment where students will be happy to learn.
+            <section id="about">
+                <h1>About Us</h1>
+                <div class="aboutPara">
+                    <p class="aboutText">Education Wave was established in 2020. It is a New Zealand operation with tutors from around the world. We are an innovative serivce that helps students that struggling with school work.<br> At Education Wave, our tutors are graduates
+                        from all types of Bachelor Degrees such as Bachelor of Commerce, Bachelor of Science, and more. We want to provide tutoring from the comfort of your home, where both parties can communicate online which makes it very convenient.
+                    </p>
+                    <h2>
+                        Our Goal
+                    </h2>
+                    <p class="aboutText">
+                        We want to train ambitious and aspiring students. We want to give students the best shot for their future. Giving them an opportunity to improve while they still young and have a chance. Setting the young kids on a path which will benefit everyone in
+                        the future. Our aim is also to create a healthy, friendly and fun environment where students will be happy to learn.
 
-                        </p>
-                        <h2>
-                            Our Values
-                        </h2>
-                        <ul class = "aboutList">
-                            <p class = "aboutText">In order to have a successful learning experience, our values have shown that both student and tutor can connect, and learn efficiently.</p>
-                            <li>Respect and communicate</li>
-                            <li>Friendly and safe environment</li>
-                            <li>A passion in what you are studying</li>
-                            <li>Ask when you don't understand</li>
-                            <li>Celebrate the achievements and successes</li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-
+                    </p>
+                    <h2>
+                        Our Values
+                    </h2>
+                    <ul class="aboutList">
+                        <p class="aboutText">In order to have a successful learning experience, our values have shown that both student and tutor can connect, and learn efficiently.</p>
+                        <li>Respect and communicate</li>
+                        <li>Friendly and safe environment</li>
+                        <li>A passion in what you are studying</li>
+                        <li>Ask when you don't understand</li>
+                        <li>Celebrate the achievements and successes</li>
+                    </ul>
+                </div>
+            </section>
         </div>
 
-        <footer>
-            <nav class = "footernav">
-                <div class = "footerContact">
-                    <p>Contact Us:</p>
-                    <br>
-                    <p>Phone: 021283198</p>
-                    <p>Email: educationwave@support.com</p><br>
-                    <p class = copyright>&copy; EducationWave 2020</p>
-                </div>
-                <ul>
-                    <li><a href = "#index">HOME</a></li>
-                    <li><a href = "#getTutor">GET A TUTOR</a></li>
-                    <li><a href = "#price">PRICES</a></li>
-                    <li><a href = "#about">ABOUT US</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </body>
+    </div>
+
+    <footer>
+        <nav class="footernav">
+            <div class="footerContact">
+                <p>Contact Us:</p>
+                <br>
+                <p>Phone: 021283198</p>
+                <p>Email: educationwave@support.com</p><br>
+                <p class=c opyright>&copy; EducationWave 2020</p>
+            </div>
+            <ul>
+                <li onClick="changeDisplay('index')"><a>HOME</a></li>
+                <li onClick="changeDisplay('getTutor')"><a>GET A TUTOR</a></li>
+                <li onClick="changeDisplay('price')"><a>TUTOR PRICES</a></li>
+                <li onClick="changeDisplay('about')"><a>ABOUT US</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
 
 
 </html>

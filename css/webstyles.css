@@ -1,67 +1,74 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
+
 /* Wrapper code */
-.wrapper{
+
+.wrapper {
     height: 100%;
 }
 
 
 /*Start of Navigation code*/
-.navbar{
+
+.navbar {
     height: 100px;
     width: 100%;
     background-color: #853185;
     position: fixed;
     z-index: 1;
 }
-.navbar ul{
+
+.navbar ul {
     float: right;
     margin-left: 40px;
 }
-.navbar ul li{
+
+.navbar ul li {
     list-style: none;
     margin: 40px;
     display: inline-block;
     line-height: 80px;
     font-size: 22px;
-    
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Baloo Tammudu 2', cursive;
     text-align: center;
-    
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: rgb(211, 205, 205)
 }
 
-.logo{
-    float:left;
+.logo {
+    float: left;
     width: 300px;
     height: auto;
     padding-top: 14px;
     padding-left: 20px;
 }
-.searchbar{
+
+.searchbar {
     margin-top: 35px;
     float: right;
     margin-right: 55px;
 }
-input{
+
+input {
     padding: 7px;
     border: none;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
     margin-right: 5px;
-    
 }
-button{
+
+button {
     height: 32px;
     float: right;
     background: rgb(255, 166, 0);
@@ -72,5 +79,8 @@ button{
     border-radius: 10px;
     border: white;
     font-size: 16px;
+}
 
+a {
+    cursor: pointer;
 }
