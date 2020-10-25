@@ -197,10 +197,6 @@ section h2 {
     color: white;
 }
 
-.content {
-    background-color: rgb(231, 231, 208);
-}
-
 .row {
     /* padding-top: 50px; */
     height: 1000px;
@@ -208,7 +204,7 @@ section h2 {
 
 .column {
     float: left;
-    width: 300px;
+    width: 320px;
     padding-right: 10px;
     padding-bottom: 10px;
     display: none;
